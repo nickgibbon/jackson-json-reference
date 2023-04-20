@@ -3,36 +3,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>jackson-json-reference-core</name>
-    <groupId>me.andrz.jackson</groupId>
+    <groupId>io.github.nickgibbon</groupId>
     <artifactId>jackson-json-reference-core</artifactId>
     <version>0.3.3-SNAPSHOT</version>
-    <url>https://github.com/AndersDJohnson/jackson-json-reference</url>
+    <url>https://github.com/nickgibbon/jackson-json-reference</url>
     <description>JSON Reference for Java with Jackson.</description>
 
     <parent>
-        <groupId>me.andrz.jackson</groupId>
+        <groupId>io.github.nickgibbon</groupId>
         <artifactId>jackson-json-reference</artifactId>
         <version>0.3.3-SNAPSHOT</version>
     </parent>
 
     <properties>
-        <github.user>AndersDJohnson</github.user>
+        <github.user>nickgibbon</github.user>
         <github.repo>jackson-json-reference</github.repo>
     </properties>
 
     <developers>
         <developer>
-            <id>AndersDJohnson</id>
-            <name>Anders D. Johnson</name>
-            <url>https://andrz.me</url>
-            <email>anders.d.johnson.developer@gmail.com</email>
+            <id>nickgibbon</id>
+            <name>Nicholas Ring</name>
             <roles>
                 <role>developer</role>
             </roles>
-            <timezone>America/Chicago</timezone>
-            <properties>
-                <picUrl>https://www.gravatar.com/avatar/5c44acedb08657aa1bdfc5524e71ff53</picUrl>
-            </properties>
+            <timezone>Australia/Melbourne</timezone>
         </developer>
     </developers>
 
@@ -99,6 +94,7 @@
                 <version>2.10.3</version>
                 <configuration>
                     <failOnError>false</failOnError>
+                    <source>1.8</source>
                 </configuration>
                 <executions>
                     <execution>
@@ -145,6 +141,7 @@
                         <version>2.10.1</version>
                         <configuration>
                             <failOnError>false</failOnError>
+                            <source>1.8</source>
                         </configuration>
                         <executions>
                             <execution>
