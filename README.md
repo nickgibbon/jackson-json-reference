@@ -1,15 +1,6 @@
 jackson-json-reference
 ==============
 
-> WARNING! Not being actively maintained.
-
-Parent:
-[![Build Status](https://travis-ci.org/AndersDJohnson/jackson-json-reference.png)](https://travis-ci.org/AndersDJohnson/jackson-json-reference)
-[![Codecov](https://img.shields.io/codecov/c/github/AndersDJohnson/jackson-json-reference.svg)](http://codecov.io/github/AndersDJohnson/jackson-json-reference)
-
-* Core:&nbsp;[![Download Core](https://img.shields.io/maven-central/v/me.andrz.jackson/jackson-json-reference-core.svg) ][download]
-* CLI:&nbsp;&nbsp;&nbsp;[![Download CLI](https://img.shields.io/maven-central/v/me.andrz.jackson/jackson-json-reference-cli.svg) ][download-cli]
-
 [JSON Reference] implementation for Java, based on [Jackson]. Process references in JSON documents, such as in [JSON Schema]. Aims for but not limited to full [spec](#specs) compliance.
 
 ## Features
@@ -76,9 +67,9 @@ mapper.writeValue(new File("out.json"), node);
 ```xml
 <dependencies>
     <dependency>
-        <groupId>me.andrz.jackson</groupId>
+        <groupId>io.github.nickgibbon</groupId>
         <artifactId>jackson-json-reference-core</artifactId>
-        <version>0.3.2</version>
+        <version>0.3.5</version>
     </dependency>
 </dependencies>
 ```
@@ -91,15 +82,9 @@ repositories {
 }
 
 dependencies {
-    compile 'me.andrz.jackson:jackson-json-reference-core:0.3.2'
+    compile 'io.github.nickgibbon:jackson-json-reference-core:0.3.5'
 }
 ```
-
-### Manual
-
-Download JAR(s) from Maven Central:
-* Core:&nbsp;[![Download Core](https://img.shields.io/maven-central/v/me.andrz.jackson/jackson-json-reference-core.svg) ][download]
-* CLI:&nbsp;&nbsp;&nbsp;[![Download CLI](https://img.shields.io/maven-central/v/me.andrz.jackson/jackson-json-reference-cli.svg) ][download-cli]
 
 ## License
 
@@ -154,5 +139,3 @@ mvn release:perform
 [JSON Pointer]: http://tools.ietf.org/html/rfc6901
 [JSON Schema]: http://json-schema.org/
 [JSON Schema Spec]: https://tools.ietf.org/html/draft-zyp-json-schema-04
-[download]: https://repo1.maven.org/maven2/me/andrz/jackson/jackson-json-reference-core/0.3.0/jackson-json-reference-core-0.3.2.jar
-[download-cli]: https://repo1.maven.org/maven2/me/andrz/jackson/jackson-json-reference-cli/0.3.0/jackson-json-reference-cli-0.3.2.jar
